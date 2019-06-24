@@ -1,0 +1,20 @@
+Source: turnkey-lazyclass
+Section: python
+Priority: optional
+Maintainer: Stefan Davis <stefan@turnkeylinux.org>
+Build-Depends:
+ debhelper (>= 10),
+ python3 (>= 3.5),
+ python3-all (>= 3.5~),
+ python3-setuptools,
+X-Python-Version: >= 3.5
+Standards-Version: 4.0.0
+
+Package: turnkey-lazyclass
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Suggests:
+ python3-profiler,
+Description: TurnKey GNU/Linux Network Information Library
